@@ -3,7 +3,8 @@
 This project is related to Course 2 on the FSD program.
 
 # Sprints:
-1 - 
+1 - May 23rd
+2 - Jun 6th
 
 # Project description:
 Create rest api application using .Net Core Web Api for EHealthcare application which can be consumed by clients like Angular, React or any mobile application. This application should be scalable to be able to use with any number of clients and end users.
