@@ -38,17 +38,26 @@ Admin is responsible for managing content in the portal. Admin will handle addin
 
 Create end points for below functionalities.
 Admin/addMedicine – To add new medicines.
+
 Admin/updateMedicine – To update existing medicines.
+
 Admin/getAllMedicine – To get all medicines from database
+
 Admin/getMedicineById – To get one medicine and its details using ID.
+
 Admin/deleteMedicineById – To delete medicine from database.
 
 ## User Module
 From the user’s perspective, application should allow users to get all medicines, add them to cart and place order. New user should also be able to signup, upon which you need to return JWT token to the client.
 
 Create end points for below functionalities.
+
 User/signup  - To register new users
+
 User/signin – To signin existing users
+
 Cart/GetByUserID – Get User’s cart.
+
 Cart/Add – Add medicine to cart.
+
 Cart/PlaceOrder – Place Order for items in cart.
