@@ -37,27 +37,20 @@ Apis should use standard HTTP Status Codes for response to user’s requests.
 Admin is responsible for managing content in the portal. Admin will handle adding and updating data in portal.
 
 Create end points for below functionalities.
-Admin/addMedicine – To add new medicines.
 
-Admin/updateMedicine – To update existing medicines.
-
-Admin/getAllMedicine – To get all medicines from database
-
-Admin/getMedicineById – To get one medicine and its details using ID.
-
-Admin/deleteMedicineById – To delete medicine from database.
+1 .Admin/addMedicine – To add new medicines.
+2. Admin/updateMedicine – To update existing medicines.
+3. Admin/getAllMedicine – To get all medicines from database
+4. Admin/getMedicineById – To get one medicine and its details using ID.
+5. Admin/deleteMedicineById – To delete medicine from database.
 
 ## User Module
 From the user’s perspective, application should allow users to get all medicines, add them to cart and place order. New user should also be able to signup, upon which you need to return JWT token to the client.
 
 Create end points for below functionalities.
 
-User/signup  - To register new users
-
-User/signin – To signin existing users
-
-Cart/GetByUserID – Get User’s cart.
-
-Cart/Add – Add medicine to cart.
-
-Cart/PlaceOrder – Place Order for items in cart.
+1. User/signup  - To register new users
+2. User/signin – To signin existing users
+3. Cart/GetByUserID – Get User’s cart.
+4. Cart/Add – Add medicine to cart.
+5. Cart/PlaceOrder – Place Order for items in cart.
