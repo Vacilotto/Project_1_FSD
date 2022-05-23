@@ -3,8 +3,8 @@
 This project is related to Course 2 on the FSD program.
 
 # Sprints:
-1 - May 23rd
-2 - Jun 6th
+1. May 23rd
+2. Jun 6th
 
 # Project description:
 Create rest api application using .Net Core Web Api for EHealthcare application which can be consumed by clients like Angular, React or any mobile application. This application should be scalable to be able to use with any number of clients and end users.
@@ -38,7 +38,7 @@ Admin is responsible for managing content in the portal. Admin will handle addin
 
 Create end points for below functionalities.
 
-1 .Admin/addMedicine – To add new medicines.
+1. Admin/addMedicine – To add new medicines.
 2. Admin/updateMedicine – To update existing medicines.
 3. Admin/getAllMedicine – To get all medicines from database
 4. Admin/getMedicineById – To get one medicine and its details using ID.
